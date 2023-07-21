@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    minecraft,
+    youtube,
+    nft
   } from "../assets";
   
   export const navLinks = [
@@ -46,17 +49,14 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Front End Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+  
   ];
   
   const technologies = [
@@ -108,10 +108,6 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
@@ -120,7 +116,7 @@ import {
       company_name: "IMBNET",
       icon: shopify,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2021 - October 2021",
       points: [
         "Developing and maintaining Websites and E-shops using Shopify and Wordpress.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -130,9 +126,9 @@ import {
     {
       title: "React FrontEnd Developer",
       company_name: "Digibridge",
-      icon: tesla,
+      icon: typescript,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "October 2021 - Feb 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies in the insurance industry.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,9 +139,9 @@ import {
     {
       title: "Front End Developer",
       company_name: "PCCW GLOBAL",
-      icon: shopify,
+      icon: reactjs,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies in the Telecomunication Industry.",
         "Engaging in collaborative efforts with diverse teams, such as designers, product managers, and fellow developers, to craft top-notch products.",
@@ -160,58 +156,50 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Minecraft",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Minecraft clone directly to you browser using React and Three.js",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ThreeJS",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: minecraft,
+      source_code_link: "https://github.com/OrfeasNifakos/MinecraftJS",
     },
     {
-      name: "Job IT",
+      name: "Youtube",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Youtube Clone with React and rapidapi",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Rapidapi",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: youtube,
+      source_code_link: "https://github.com/OrfeasNifakos/Youtube-CLone",
     },
     {
-      name: "Trip Guide",
+      name: "NFT MARKETPLACE",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "WEB 3.0 Marketplace made with React Native and Expo",
       tags: [
         {
-          name: "nextjs",
+          name: "React Native",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Expo",
           color: "green-text-gradient",
         },
         {
@@ -219,8 +207,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: nft,
+      source_code_link: "https://github.com/OrfeasNifakos/NFT-Marketplace/tree/master",
     },
   ];
   
